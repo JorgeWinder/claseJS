@@ -18,6 +18,7 @@ console.log(cadena.replace("vd","Alejandra"))
 // console.log(parseInt(cadena))
 
 console.log(cadena.split(" "))
+console.log(cadena.split(""))
 console.log(cadena.substring(2,5))
 
 
