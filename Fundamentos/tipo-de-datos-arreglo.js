@@ -49,6 +49,17 @@ lista.unshift(false)
 lista.unshift(22,12)
 console.log(lista)
 
+//------------------------//
+
+let cadena = "JOrge , Winder , 31"
+const listacadena = cadena.split(",")
+
+listacadena.forEach(function(elemento, index){
+    // listacadena[index]  =  elemento
+    listacadena[index]  = elemento.trim()
+})
+
+console.log(listacadena)
 
 
 
