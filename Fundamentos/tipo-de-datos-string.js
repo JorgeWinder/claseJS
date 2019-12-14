@@ -4,6 +4,7 @@ console.log(cadena.trim())
 
 cadena = cadena.trim()
 
+
 // Propiedad //
 
 console.log("Canridad de caracteres de la cadena : " + cadena.length)
@@ -11,7 +12,8 @@ console.log("Canridad de caracteres de la cadena : " + cadena.length)
 // Metodos //
 
 console.log(cadena.indexOf("u"))
-console.log(cadena.replace("vd","Alejandra"))
+
+console.log(cadena.replace("v d","Alejandra"))
 
 // cadena = 1500
 // console.log(cadena.toString())
